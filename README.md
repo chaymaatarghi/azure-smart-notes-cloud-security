@@ -23,6 +23,24 @@ Concevoir une application web permettant de créer, consulter et supprimer des n
 
 Le projet comprend également des fichiers GitHub Actions pour les déploiements d'infrastructure et d'application dans le dépôt collectif.
 
+## Captures du projet
+
+### Architecture cloud
+
+![Architecture Azure de Smart Notes](Architecture%20Azure.png)
+
+*Schéma de l'architecture du projet. L'intégration complète de Microsoft Entra ID figure parmi les améliorations futures.*
+
+### Application Smart Notes
+
+![Interface de l'application Smart Notes](Application%20Smart%20Notes.png)
+
+### Supervision avec Application Insights
+
+![Supervision Azure avec Application Insights](Supervision%20Azure.png)
+
+*Capture issue du laboratoire Azure du projet.*
+
 ## Sécurité étudiée et mise en œuvre
 
 - Gestion des secrets avec **Azure Key Vault** et **Managed Identity**.
